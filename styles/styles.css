@@ -1,0 +1,459 @@
+body {
+    margin: 0;
+}
+
+/* ПЕРВЫЙ ЛИСТ */
+.header-container {
+    height: 900px;
+    background-image: url("../images/bgc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content {
+    width: 1110px;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.address-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu-item {
+    /* Для онуления стандартных параметров сслыки: text-decoration: none; */
+    list-style: none;
+    /* Свойство для онуления паараметров кнопки*/
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid white;
+}
+
+/* .menu-item.abt {
+    border-right: none;
+} */
+.menu-item:last-child {
+    border-right: none;
+}
+
+.menu-button {
+    background-color: Transparent;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.last-items {
+    margin-top: 583px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-button {
+    background-color: #99862A;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+.main-button:first-child {
+    margin-right: 30px;
+}
+
+/* ВТОРОЙ ЛИСТ   */
+.second-container {
+    height: 856px;
+    background-color: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-container-content {
+    width: 1110px;
+    height: 656px;
+    border: 1px solid white;
+}
+
+.second-container-header {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+/* Псевдо-элемент*/
+.second-container-header::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 160px;
+    background-color: white;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.second-container-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    width: 733px;
+    /* эта команда выравнивает текст по центру блока */
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+.image-two-contanier {
+    display: block;
+    margin: 0 auto;
+}
+
+/* ТРЕТИЙ КОНТЕЙНЕР */
+.three-container {
+    height: 1038px;
+    background-color: #E6E3C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-container-content {
+    height: 878px;
+    width: 1110px;
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;
+    display: flex;
+    padding-top: 60px;
+}
+
+/*Первая часть блока */
+.first-part {
+    width: 50%;
+}
+
+.title-container {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.three-container-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    width: 298px;
+    margin: 0;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.three-container-header::before {
+    position: absolute;
+    content: "";
+    width: 160px;
+    height: 1px;
+    background-color: black;
+    bottom: 0;
+}
+
+.three-container-text-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-bottom: 35px;
+    width: 445px;
+}
+
+.table-container {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.table-blok {
+    list-style: none;
+    display: flex;
+}
+
+.year {
+    padding: 24px 26px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.year.last-1 {
+    border-bottom: none;
+}
+
+.second-table-container {
+    border-bottom: 1px solid black;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.table-text-1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+.table-text-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.second-table-container.last-2 {
+    border-bottom: none;
+}
+
+.three-container-text-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    width: 445px;
+    margin-bottom: 30px;
+}
+
+.link-2 {
+    text-decoration: none;
+    color: white;
+    background-color: #998431;
+    padding: 15px 30px;
+    display: block;
+    /* задаёт ширину по ширине контента */
+    width: max-content;
+}
+
+
+/* вторая часть блока */
+.second-part {
+    width: 50%;
+}
+
+.image-1 {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.double-image {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* ЧЕТВЁРТЫЙ КОНТЕЙНЕР */
+.four-container {
+    height: 767px;
+    background-color: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-container-content {
+    height: 538px;
+    width: 1110px;
+    border: 1px solid white;
+    position: relative;
+}
+
+/* 1 часть */
+.four-container-header {
+    margin: 0;
+    padding: 40px 50px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%, -50%);
+    background-color: #282828;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: white;
+}
+
+.four-container-header::before {
+    position: absolute;
+    content: "";
+    width: 118px;
+    height: 1px;
+    background-color: white;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+.four-container-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    width: 540px;
+    margin: 0 auto;
+    padding: 105px 0 81px 0;
+    text-align: center;
+}
+
+.input-container {
+    width: 540px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Для того чтобы "Инпуты" в дной строке не имели пробелов,нужно убрать пробелы в */
+.input {
+    background-color: white;
+    padding: 0;
+    padding-bottom: 10px;
+    /* команда убирает границы при наведении */
+    outline: none;
+    border: 0;
+    /* Так же имеет своё расстояние и при совмещении 2-х Инпутов прописываем */
+    box-shadow: none;
+    background-color: #282828;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+/* Псевдо элемент для Placeholder задаёт цвет шрифта */
+.input::-webkit-input-placeholder {
+    color: white;
+}
+
+.input-1 {
+    width: 255px;
+}
+
+.input-2 {
+    width: 255px;
+
+}
+
+.input-3 {
+    display: block;
+    width: 540px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.button {
+    background-color: #282828;
+    cursor: pointer;
+    margin-left: 286px;
+    border: 1px solid white;
+    width: 540px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* картинки 2 часть */
+.image-one {
+    position: absolute;
+    top: 0;
+    transform: translate(-10%, -25%);
+}
+
+.image-two {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translate(-70%, -30%);
+}
+
+/* footer (Подвал) Последняя часть */
+
+.footer {
+    height: 220px;
+    background-color: #998431;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-header-container {
+    height: 120px;
+    width: 1110px;
+    border-top: 1px solid white;
+}
+
+.footer-button-container {
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0 40px;
+    list-style: none;
+    border-bottom: 1px solid white;
+}
+
+.button-button {
+    background-color: #998431;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    height: 100%;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button-button.two {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+}
+
+.button-cection {
+    width: 100%;
+    border-right: 1px solid white;
+}
+
+.button-cection:last-child {
+    border-right: none;
+}
+
+.img-link {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    border-right: 1px solid white;
+}
